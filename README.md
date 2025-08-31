@@ -16,6 +16,7 @@
 目前已支持
 /setting
 	vim
+	ssh
 
 /tool
 	Makefile
