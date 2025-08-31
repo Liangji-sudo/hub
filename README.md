@@ -11,3 +11,11 @@
 	主要保存一些文档
 /project
 	主要保存自己的个人项目的链接，方便自己快速寻找
+
+
+目前已支持
+/setting
+	vim
+
+/tool
+	Makefile
