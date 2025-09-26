@@ -17,6 +17,7 @@
 /setting
 	vim
 	ssh
+	git(use vim as default editor)
 
 /tool
 	Makefile

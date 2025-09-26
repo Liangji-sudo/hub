@@ -7,3 +7,6 @@ sudo apt-get install vim
 #set vimrc
 echo " ====================> liangji start setting vim"
 sudo cp ./vimrc /etc/vim/vimrc
+
+#set ai 
+#

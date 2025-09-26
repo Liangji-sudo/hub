@@ -1,0 +1,6 @@
+#use vim as git default editor
+
+#update
+echo " ====================> liangji start update git use vim as default editor"
+git config --global core.editor vim
+echo " ====================> liangji update git over"
