@@ -35,6 +35,14 @@ unzip ./nerdtree.zip -d ~/.vim
 #if wanna start NERDTree auto, see vimrc directly
 echo -e " ====================> liangji finish installing\n\n\n"
 
+#add Taglist into vim
+#usage:
+#:Tlist
+echo " ====================> liangji start installing vim(Tlist)"
+cp ./taglist/taglist.txt ~/.vim/doc
+cp ./taglist/taglist.vim ~/.vim/plugin
+echo -e " ====================> liangji finish installing\n\n\n"
+
 
 
 
