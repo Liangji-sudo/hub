@@ -61,3 +61,5 @@ endif
 set ts=4
 "liangji update: show raw number"
 set nu
+"liangji update: set NERDTree start auto"
+"autocmd VimEnter * NERDTree"

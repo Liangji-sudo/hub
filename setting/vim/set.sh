@@ -3,13 +3,12 @@
 #install
 echo " ====================> liangji start install vim"
 sudo apt-get install vim
-echo " ====================> liangji finish install"
+echo -e " ====================> liangji finish install\n\n\n"
 
 #set vimrc
 echo " ====================> liangji start setting vim"
 sudo cp ./vimrc /etc/vim/vimrc
-echo " ====================> liangji finish setting vim"
-
+echo -e " ====================> liangji finish setting vim \n\n\n"
 
 
 # install some good plugin
@@ -23,7 +22,25 @@ mkdir ~/.vim
 echo " ====================> liangji start installing vim(ctags)"
 sudo apt-get install universal-ctags
 whatis ctags
-echo " ====================> liangji finish installing"
+echo -e " ====================> liangji finish installing\n\n\n"
+
+
+#add NERDTree into vim
+#usage:
+#:NERDTree
+echo " ====================> liangji start installing vim(NERDTree)"
+unzip ./nerdtree.zip -d ~/.vim
+#if wanna start NERDTree auto, see vimrc directly
+echo -e " ====================> liangji finish installing\n\n\n"
+
+
+
+
+
+
+
+
+
 
 
 #set ai 
