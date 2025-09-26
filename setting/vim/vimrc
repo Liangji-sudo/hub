@@ -59,4 +59,5 @@ endif
 
 "liangji update: change tab from 8 space to 4 space"
 set ts=4
-
+"liangji update: show raw number"
+set nu
