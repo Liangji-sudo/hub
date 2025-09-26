@@ -82,8 +82,18 @@ set hlsearch
 "colorscheme desert
 
 "liangji update: set Tlist"
-let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 0
+nmap <silent> <F10> :Tlist<cr>
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
 set tags=tags
+
+"liangji update: set winmanager"
+let g:winManagerWindowLayout='FileExplorer|Taglist'
+"set F9 to start/close
+nmap <silent> <F9> :WMToggle<cr>
+"start auto"
+let g:AutoOpenWinManager = 0
+"set width = 25"
+let g:winManagerWidth = 30

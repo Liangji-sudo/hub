@@ -44,6 +44,13 @@ cp ./taglist/taglist.vim ~/.vim/plugin
 echo -e " ====================> liangji finish installing\n\n\n"
 
 
+#add winmanager
+echo " ====================> liangji start installing vim(winmanager)"
+cp ./winmanager/doc/* ~/.vim/doc
+cp ./winmanager/plugin/* ~/.vim/plugin
+echo -e " ====================> liangji finish installing\n\n\n"
+
+
 
 
 
