@@ -75,5 +75,8 @@ set nu
 "liangji update: set highlight"
 set hlsearch
 
+"liangji update: set new font format"
+"set guifont=Courier\ New:h10
 
-
+"liangji update: set color style"
+"colorscheme desert
