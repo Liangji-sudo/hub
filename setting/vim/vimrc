@@ -53,13 +53,27 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+
+
+
+
+"liangji update from here ---------------------"
+
 if has('mouse')
     set mouse=a
 endif
 
 "liangji update: change tab from 8 space to 4 space"
 set ts=4
+
 "liangji update: show raw number"
 set nu
+
 "liangji update: set NERDTree start auto"
 "autocmd VimEnter * NERDTree"
+
+"liangji update: set highlight"
+set hlsearch
+
+
+

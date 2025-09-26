@@ -8,11 +8,13 @@ echo -e " ====================> liangji finish install\n\n\n"
 #set vimrc
 echo " ====================> liangji start setting vim"
 sudo cp ./vimrc /etc/vim/vimrc
+source /etc/vim/vimrc
 echo -e " ====================> liangji finish setting vim \n\n\n"
 
 
 # install some good plugin
 mkdir ~/.vim
+rm -rf ~/.vim/*
 
 #add ctags into vim
 #usage:
