@@ -62,7 +62,11 @@ cp ./winmanager/plugin/* ~/.vim/plugin
 echo -e " ====================> finish\n\n\n"
 
 
-
+#add gruxbox or other plug
+#use vim_plug to install gruxbox:
+#:PlugInstall
+#or
+cp -rf color/gruvbox ~/.vim/plugged/
 
 
 

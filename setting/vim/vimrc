@@ -97,3 +97,26 @@ nmap <silent> <F9> :WMToggle<cr>
 let g:AutoOpenWinManager = 0
 "set width = 25"
 let g:winManagerWidth = 30
+
+
+
+"install gruxbox color style"
+" 在~/.vimrc中添加以下配置
+call plug#begin('~/.vim/plugged')
+
+" 添加gruvbox插件
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+" 设置配色方案
+colorscheme gruvbox
+set background=dark    " 或 light
+autocmd vimenter * ++nested colorscheme gruvbox
+
+
+
+
+
+
+
