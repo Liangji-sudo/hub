@@ -106,6 +106,7 @@ call plug#begin('~/.vim/plugged')
 
 " 添加gruvbox插件
 Plug 'morhetz/gruvbox'
+Plug 'rhysd/vim-colors-param'
 
 call plug#end()
 
@@ -113,7 +114,8 @@ call plug#end()
 colorscheme gruvbox
 set background=dark    " 或 light
 autocmd vimenter * ++nested colorscheme gruvbox
-
+" 使用一个更淡的灰色 (#999999)
+autocmd ColorScheme * highlight Comment ctermfg=240 guifg=#999999
 
 
 
