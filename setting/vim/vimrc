@@ -82,7 +82,7 @@ set hlsearch
 "colorscheme desert
 
 "liangji update: set Tlist"
-let Tlist_Auto_Open = 0
+let Tlist_Auto_Open = 1
 nmap <silent> <F10> :Tlist<cr>
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Show_One_File = 1
