@@ -15,6 +15,9 @@ echo -e " ====================> liangji finish setting vim \n\n\n"
 # install some good plugin
 mkdir ~/.vim
 rm -rf ~/.vim/*
+mkdir ~/.vim/plugged ~/.vim/plugin ~/.vim/syntax ~/.vim/colors ~/.vim/doc ~/.vim/autoload
+
+
 
 #add ctags into vim
 #usage:
@@ -31,7 +34,11 @@ echo -e " ====================> liangji finish installing\n\n\n"
 #usage:
 #:NERDTree
 echo " ====================> liangji start installing vim(NERDTree)"
-unzip ./nerdtree.zip -d ~/.vim
+#unzip ./nerdtree.zip -d ~/.vim
+cp ./nerdtree/doc/* ~/.vim/doc/
+cp -rf ./nerdtree/nerdtree_plugin ~/.vim/
+cp ./nerdtree/plugin/* ~/.vim/plugin
+cp ./nerdtree/syntax/* ~/.vim/syntax
 #if wanna start NERDTree auto, see vimrc directly
 echo -e " ====================> liangji finish installing\n\n\n"
 
