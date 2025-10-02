@@ -19,6 +19,11 @@
 	ssh
 	git(use vim as default editor)
     tmux
+	tree
+	vscode
+	scrot
+	font_size
+	
 
 /tool
 	Makefile
