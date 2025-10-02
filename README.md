@@ -23,6 +23,8 @@
 	vscode
 	scrot
 	font_size
+	Clash(work:)
+	SunLogin(work:)
 	
 
 /tool
