@@ -1,0 +1,3 @@
+#./hub_ctrl
+#./hub_ctrl -H 4 -P 4 -p 0
+#./hub_ctrl -H 4 -P 4 -p 1

@@ -29,3 +29,4 @@
 
 /tool
 	Makefile
+	hub-ctrl
