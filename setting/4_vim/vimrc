@@ -83,7 +83,7 @@ set hlsearch
 
 "liangji update: set Tlist"
 let Tlist_Auto_Open = 1
-nmap <silent> <F10> :Tlist<cr>
+nmap <silent> <F8> :Tlist<cr>
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
