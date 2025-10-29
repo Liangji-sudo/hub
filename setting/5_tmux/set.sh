@@ -1,5 +1,9 @@
 sudo apt-get install tmux
 
+sudo cp .tmux.conf ~/.tmux.conf
+
+tmux source ~/.tmux.conf
+
 #usage:
 #start: tmux
 #查看当前会话
