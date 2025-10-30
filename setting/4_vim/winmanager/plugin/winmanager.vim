@@ -1314,9 +1314,3 @@ endfunction
 let &cpo = s:cpo_save
 unlet s:cpo_save
 " vim:ts=4:noet:sw=4
-
-"set auto open Winmanager"
-if g:AutoOpenWinManager
-autocmd VimEnter * nested call s:StartWindowsManager()|3wincmd w
-endif
-
